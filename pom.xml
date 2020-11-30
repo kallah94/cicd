@@ -6,7 +6,7 @@
     <groupId>com.mycompany.myapp</groupId>
     <artifactId>web-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>Web App</name>
 
     <repositories>
@@ -939,6 +939,7 @@
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-undertow</artifactId>
+                    <scope>provided</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
